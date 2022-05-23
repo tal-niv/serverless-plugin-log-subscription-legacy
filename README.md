@@ -1,4 +1,4 @@
-# serverless-plugin-log-subscription
+# serverless-plugin-log-subscription-legacy
 
 This plugin adds an `AWS::Logs::LogSubscription` for each of your Lambda functions when enabled.
 

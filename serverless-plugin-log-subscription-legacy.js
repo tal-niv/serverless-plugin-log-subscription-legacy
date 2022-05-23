@@ -8,7 +8,7 @@ module.exports = class LogSubscriptionsPlugin {
       'aws:package:finalize:mergeCustomProviderResources': () => this.addLogSubscriptions(),
     };
 
-	if (serverless.configSchemaHandler && serverless.configSchemaHandler.defineFunctionProperties) {
+    if (serverless.configSchemaHandler && serverless.configSchemaHandler.defineFunctionProperties) {
       serverless.configSchemaHandler.defineFunctionProperties('aws', {
         properties: {
           alarms: {

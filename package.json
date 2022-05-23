@@ -1,8 +1,8 @@
 {
-  "name": "serverless-plugin-log-subscription",
+  "name": "serverless-plugin-log-subscription-legacy",
   "version": "2.1.2",
   "description": "Attach a CloudWatch LogSubscription to your functions' logs",
-  "main": "serverless-plugin-log-subscription.js",
+  "main": "serverless-plugin-log-subscription-legacy.js",
   "scripts": {
     "test": "nyc ava -v",
     "posttest": "eslint .",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dougmoscrop/serverless-plugin-log-subscription.git"
+    "url": "git+https://github.com/tal-niv/serverless-plugin-log-subscription-legacy.git"
   },
   "keywords": [
     "serverless",
@@ -20,11 +20,8 @@
     "logging"
   ],
   "author": "Doug Moscrop <doug.moscrop@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/dougmoscrop/serverless-plugin-log-subscription/issues"
-  },
-  "homepage": "https://github.com/dougmoscrop/serverless-plugin-log-subscription#readme",
+  "license": "MIT",  
+  "homepage": "https://github.com/dougmoscrop/serverless-plugin-log-subscription-legacy#readme",
   "devDependencies": {
     "@serverless/test": "^8.8.0",
     "ava": "^3.15.0",
